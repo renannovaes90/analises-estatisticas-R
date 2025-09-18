@@ -1,0 +1,433 @@
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ      QM      Fc   Pr>Fc
+Tratamento  7  3357.6  479.65 0.44648 0.86272
+Residuo    24 25783.0 1074.29                
+Total      31 29140.6                        
+------------------------------------------------------------------------
+CV = 27.44 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.04036199 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.8993136 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis  Medias
+1     Biod  98.375
+2   Compos 115.425
+3   Esteav 124.600
+4  Estebov 125.725
+5  Estecap 115.375
+6      NPK 132.975
+7 Palhacaf 114.425
+8   Testem 128.850
+------------------------------------------------------------------------
+> ANOVA2 <- dic(Adubo, diamc)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ      QM      Fc   Pr>Fc
+Tratamento  7  45.30  6.4721 0.43672 0.86926
+Residuo    24 355.67 14.8197                
+Total      31 400.98                        
+------------------------------------------------------------------------
+CV = 28.43 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.1269998 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.5622379 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis Medias
+1     Biod 11.075
+2   Compos 15.400
+3   Esteav 13.500
+4  Estebov 14.325
+5  Estecap 12.775
+6      NPK 14.300
+7 Palhacaf 13.500
+8   Testem 13.450
+------------------------------------------------------------------------
+> ANOVA3 <- dic(Adubo, pan)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ     QM     Fc   Pr>Fc
+Tratamento  7  37.885 5.4121 1.0965 0.39655
+Residuo    24 118.457 4.9357               
+Total      31 156.342                      
+------------------------------------------------------------------------
+CV = 20.23 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.5369564 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.6366819 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis Medias
+1     Biod 10.675
+2   Compos  9.375
+3   Esteav 10.025
+4  Estebov 12.325
+5  Estecap 10.950
+6      NPK 10.050
+7 Palhacaf 12.075
+8   Testem 12.400
+------------------------------------------------------------------------
+> ANOVA4 <- dic(Adubo, Nfoliar)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ     QM     Fc  Pr>Fc
+Tratamento  7 123.34 17.621 1.2122 0.3342
+Residuo    24 348.88 14.537              
+Total      31 472.22                     
+------------------------------------------------------------------------
+CV = 9.91 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.2319175 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.148107 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis Medias
+1     Biod 38.550
+2   Compos 37.475
+3   Esteav 38.475
+4  Estebov 40.075
+5  Estecap 35.200
+6      NPK 39.925
+7 Palhacaf 36.425
+8   Testem 41.675
+------------------------------------------------------------------------
+> ANOVA5 <- dic(Adubo, CTfolh)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ      QM      Fc  Pr>Fc
+Tratamento  7  22.94  3.2777 0.20033 0.9823
+Residuo    24 392.66 16.3610               
+Total      31 415.61                       
+------------------------------------------------------------------------
+CV = 9.6 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.4275894 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.4948728 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis Medias
+1     Biod 43.075
+2   Compos 41.725
+3   Esteav 41.775
+4  Estebov 42.550
+5  Estecap 43.325
+6      NPK 42.225
+7 Palhacaf 41.950
+8   Testem 40.425
+------------------------------------------------------------------------
+> ANOVA6 <- dic(Adubo, altpt)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ      QM      Fc   Pr>Fc
+Tratamento  7  6.956 0.99373 0.43869 0.86795
+Residuo    24 54.366 2.26524                
+Total      31 61.322                        
+------------------------------------------------------------------------
+CV = 13.88 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.02280743 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.9235404 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis    Medias
+1     Biod  9.862754
+2   Compos 10.640373
+3   Esteav 11.121404
+4  Estebov 11.140473
+5  Estecap 10.665713
+6      NPK 11.363049
+7 Palhacaf 10.628202
+8   Testem 11.315315
+------------------------------------------------------------------------
+> # Pacotes necessários
+> library(ExpDes.pt)
+> library(MASS)
+
+> # ANOVA original
+> ANOVA1 <- dic(Dados_G5$Adubo, Dados_G5$altp)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ      QM      Fc   Pr>Fc
+Tratamento  7  3357.6  479.65 0.44648 0.86272
+Residuo    24 25783.0 1074.29                
+Total      31 29140.6                        
+------------------------------------------------------------------------
+CV = 27.44 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.04036199 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.8993136 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis  Medias
+1     Biod  98.375
+2   Compos 115.425
+3   Esteav 124.600
+4  Estebov 125.725
+5  Estecap 115.375
+6      NPK 132.975
+7 Palhacaf 114.425
+8   Testem 128.850
+------------------------------------------------------------------------
+> # Teste Box-Cox
+> anova_altp <- aov(altp ~ Adubo, data = Dados_G5)
+> boxcox(anova_altp, lambda = seq(-2, 2, 0.1))
+> # Transformações
+> ANOVA1_log  <- dic(Dados_G5$Adubo, log(Dados_G5$altp))
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ       QM     Fc   Pr>Fc
+Tratamento  7 0.2405 0.034357 0.4401 0.86701
+Residuo    24 1.8736 0.078066               
+Total      31 2.1141                        
+------------------------------------------------------------------------
+CV = 5.88 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.01558767 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.9329352 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis   Medias
+1     Biod 4.566389
+2   Compos 4.709715
+3   Esteav 4.810076
+4  Estebov 4.807350
+5  Estecap 4.719735
+6      NPK 4.830193
+7 Palhacaf 4.713946
+8   Testem 4.846151
+------------------------------------------------------------------------
+> ANOVA1_sqrt <- dic(Dados_G5$Adubo, sqrt(Dados_G5$altp))
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ      QM      Fc   Pr>Fc
+Tratamento  7  6.956 0.99373 0.43869 0.86795
+Residuo    24 54.366 2.26524                
+Total      31 61.322                        
+------------------------------------------------------------------------
+CV = 13.88 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.02280743 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.9235404 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis    Medias
+1     Biod  9.862754
+2   Compos 10.640373
+3   Esteav 11.121404
+4  Estebov 11.140473
+5  Estecap 10.665713
+6      NPK 11.363049
+7 Palhacaf 10.628202
+8   Testem 11.315315
+------------------------------------------------------------------------
+> # ANOVA original
+> ANOVA6 <- dic(Dados_G5$Adubo, Dados_G5$altpt)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ      QM      Fc   Pr>Fc
+Tratamento  7  6.956 0.99373 0.43869 0.86795
+Residuo    24 54.366 2.26524                
+Total      31 61.322                        
+------------------------------------------------------------------------
+CV = 13.88 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.02280743 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.9235404 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis    Medias
+1     Biod  9.862754
+2   Compos 10.640373
+3   Esteav 11.121404
+4  Estebov 11.140473
+5  Estecap 10.665713
+6      NPK 11.363049
+7 Palhacaf 10.628202
+8   Testem 11.315315
+------------------------------------------------------------------------
+> # Teste Box-Cox
+> anova_altpt <- aov(altpt ~ Adubo, data = Dados_G5)
+> boxcox(anova_altpt, lambda = seq(-2, 2, 0.1))
+> # Transformações
+> ANOVA6_log  <- dic(Dados_G5$Adubo, log(Dados_G5$altpt))
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ        QM     Fc   Pr>Fc
+Tratamento  7 0.06012 0.0085892 0.4401 0.86701
+Residuo    24 0.46840 0.0195166               
+Total      31 0.52852                         
+------------------------------------------------------------------------
+CV = 5.88 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.01558767 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.9329352 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis   Medias
+1     Biod 2.283194
+2   Compos 2.354858
+3   Esteav 2.405038
+4  Estebov 2.403675
+5  Estecap 2.359868
+6      NPK 2.415097
+7 Palhacaf 2.356973
+8   Testem 2.423076
+------------------------------------------------------------------------
+> ANOVA6_sqrt <- dic(Dados_G5$Adubo, sqrt(Dados_G5$altpt))
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ       QM      Fc  Pr>Fc
+Tratamento  7 0.16086 0.022979 0.43832 0.8682
+Residuo    24 1.25824 0.052427               
+Total      31 1.41910                        
+------------------------------------------------------------------------
+CV = 6.97 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.01859935 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.9298339 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+De acordo com o teste F, as medias nao podem ser consideradas diferentes.
+------------------------------------------------------------------------
+    Niveis   Medias
+1     Biod 3.136115
+2   Compos 3.253989
+3   Esteav 3.331712
+4  Estebov 3.332063
+5  Estecap 3.260007
+6      NPK 3.358143
+7 Palhacaf 3.254778
+8   Testem 3.361215
+------------------------------------------------------------------------

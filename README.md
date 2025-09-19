@@ -1,2 +1,6 @@
-# analises-estatisticas-R
-Análises estatísticas de experimentos agrícolas estudados na monitoria/curso oferecido para discentes da pós-graduação da UFU no ano de 2021.
+# Análises Estatísticas de Experimentos Agronômicos
+
+Este repositório contém scripts em R para análises de diversos experimentos, utilizando ANOVA, análise de pressuposições e geração de gráficos. Cada experimento possui seus próprios dados e saídas organizados nas pastas correspondentes.
+
+
+

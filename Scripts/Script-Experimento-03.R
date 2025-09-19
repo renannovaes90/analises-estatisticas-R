@@ -1,5 +1,6 @@
 library(ExpDes.pt)
-attach(Dados_G3)
+dados3 <- Dados_Experimento_03
+attach(dados3)
 
 Anova1 <- dbc(Consorcio, bloco, insetA)
 Anova2 <- dbc(Consorcio, bloco, MSN)

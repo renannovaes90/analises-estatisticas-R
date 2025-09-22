@@ -25,7 +25,9 @@ Este repositório contém os dados, análises estatísticas e resultados referen
 2. Sigatoka-amarela (SigatAmar) – escala de 1 a 6 (quanto menor, melhor)  
 3. Número de pencas (NPencas)  
 4. Número de frutos (Nfrutos)  
-5. Peso de cachos (kg, Pcachos)  
+5. Peso de cachos (kg, Pcachos) 
+
+Fonte: Segue arquivo **"Dados_05"** 
 
 ---
 

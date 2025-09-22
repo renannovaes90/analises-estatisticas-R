@@ -79,12 +79,13 @@ Quando necessário, aplicou-se transformação **Box-Cox**.
 ## 📂 Estrutura do repositório
 ```
 📁 Experimento_07
- ┣ 📄 README.md               <- Descrição do estudo
- ┣ 📊 Dados_Experimento_07.xls <- Base de dados
- ┣ 📄 Dados G7.doc             <- Detalhes do experimento
- ┣ 📈 gráfico-box-cox-Nfolhas-experimento-07.png
- ┣ 📈 gráfico-box-cox-SigatAmar-experimento-07.png
- ┗ 📜 script_analise.R         <- Script em R para análise
+ ┣ 📄 README.md                                       <- Descrição do estudo
+ ┣ 📊 Dados_Experimento_07.xls                        <- Base de dados
+ ┣ 📄 Dados G7.doc                                    <- Detalhes do experimento
+ ┣ 📈 gráfico-box-cox-Nfolhas-experimento-07.png      <- Gráficos indicativos do valor lambda
+ ┣ 📈 gráfico-box-cox-SigatAmar-experimento-07.png       para a transformação dos dados
+ ┣ 📈 gráfico-box-Pcachos-experimento-07.png
+ ┗ 📜 script_analise.R                                <- Script em R para análise
 ```
 
 ---

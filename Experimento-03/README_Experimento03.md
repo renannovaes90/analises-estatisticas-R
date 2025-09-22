@@ -20,8 +20,6 @@ Este repositório contém os dados, análises estatísticas e resultados referen
   - Aos 43 dias: insetos adultos (InsetA), número de nódulos (Nod), matéria seca dos nódulos (MSN), nódulos furados (Nod_F).  
   - Aos 70 dias: produtividade (Prod).  
 
-Fonte: [Dados G3.doc](Dados%20G3.doc)
-
 ---
 
 ## 📊 Análises estatísticas

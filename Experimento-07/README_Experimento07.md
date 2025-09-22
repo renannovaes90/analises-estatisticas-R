@@ -27,7 +27,7 @@ Este repositório contém os dados, análises estatísticas e resultados referen
 4. Número de frutos (Nfrutos)  
 5. Peso de cachos (kg, Pcachos) 
 
-Fonte: Segue arquivo **"Dados_05"** 
+Fonte: Segue arquivo **"Texto-explicativo-experimento-07"** na presente pasta. 
 
 ---
 

@@ -69,7 +69,10 @@ Quando necessário, aplicou-se transformação **Box-Cox**.
 
 #### 5. Peso de cachos (Pcachos)
 - Resíduos **não atenderam normalidade**, mas variâncias homogêneas.  
-- **Scott-Knott:** Preciosa apresentou maior peso médio de cachos.  
+- **Scott-Knott:** Preciosa apresentou maior peso médio de cachos.
+
+📈 ![Gráfico Box-Cox – Pcachos](gráfico-box-cox-Pcachos-experimento-07.png)
+ 
 
 ---
 

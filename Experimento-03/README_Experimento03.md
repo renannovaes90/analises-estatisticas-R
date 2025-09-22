@@ -18,7 +18,9 @@ Este repositório contém os dados, análises estatísticas e resultados referen
 - **Inoculação:** Rizóbio (CIAT 899 para feijão; BR 2001 para caupi).  
 - **Avaliações:**  
   - Aos 43 dias: insetos adultos (InsetA), número de nódulos (Nod), matéria seca dos nódulos (MSN), nódulos furados (Nod_F).  
-  - Aos 70 dias: produtividade (Prod).  
+  - Aos 70 dias: produtividade (Prod).
+
+Fonte: Segue arquivo "Dados_03"  
 
 ---
 
@@ -55,7 +57,7 @@ Foram verificadas as pressuposições de **normalidade dos resíduos** (Shapiro-
 📁 Experimento_03
  ┣ 📄 README.md               <- Descrição do estudo
  ┣ 📊 Dados_Experimento_03.xls <- Base de dados
- ┣ 📄 Dados G3.doc             <- Detalhes do experimento
+ ┣ 📄 Dados_G3.doc             <- Detalhes do experimento
  ┗ 📜 script_analise.R         <- Script em R para análise
 ```
 

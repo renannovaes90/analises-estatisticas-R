@@ -56,8 +56,7 @@ dados7$Nfolhas_bc <- (dados7$Nfolhas^lambda_nfolhas - 1) / lambda_nfolhas
 # Novo modelo com transformação
 modelo1_bc <- aov(Nfolhas_bc ~ Genotipos, data = dados7)
 
-# Testes de pressuposições
-library(nortest)
+# Testes de pressuposições após a transformação
 lillie.test(residuals(modelo1_bc))                     # normalidade (Lilliefors)
 bartlett.test(Nfolhas_bc ~ Genotipos, data = dados7)   # homogeneidade
 
@@ -80,7 +79,6 @@ dados7$SigatAmar_bc <- (dados7$SigatAmar^lambda_sigatamar - 1) / lambda_sigatama
 modelo2_bc <- aov(SigatAmar_bc ~ Genotipos, data = dados7)
 
 # Testes de pressuposições
-library(nortest)
 lillie.test(residuals(modelo2_bc))                     # normalidade
 bartlett.test(SigatAmar_bc ~ Genotipos, data = dados7) # homogeneidade
 

@@ -16,17 +16,6 @@ O Projeto RECA (Reflorestamento Econômico Consorciado e Adensado) tem utilizado
 
 ---
 
-## ⚙️ Script em R
-
-```r
-library(ExpDes.pt) #Carregando livraria para as ANOVAs
-dados11 <- Dados_experimento_11 #Criando objeto para o dataset
-attach(dados11) #Anexando dataset ao R
-
-ANOVA1 <- dic(K2O, NF) #Análise de variância para número médio de frutos por planta
-ANOVA2 <- dic(K2O, PF) #Análise de variância para peso médio de frutos por planta
-```
-
 ---
 
 ## 📊 Resultados
@@ -34,7 +23,7 @@ ANOVA2 <- dic(K2O, PF) #Análise de variância para peso médio de frutos por pl
 ### 🔹 Número médio de frutos por planta (NF)
 
 **ANOVA**
-- Efeito de tratamentos: **F = 55.82**, p < 0.0001  
+- Efeito de tratamentos: **p-valor < 5%**  
 - **CV = 5.55%** → alta precisão  
 
 **Pressupostos**
@@ -52,7 +41,7 @@ ANOVA2 <- dic(K2O, PF) #Análise de variância para peso médio de frutos por pl
 ### 🔹 Peso médio de frutos por planta (PF)
 
 **ANOVA**
-- Efeito de tratamentos: **F = 85.41**, p < 0.0001  
+- Efeito de tratamentos: **p-valor < 5%** 
 - **CV = 4.31%** → excelente precisão  
 
 **Pressupostos**

@@ -16,8 +16,6 @@ O Projeto RECA (Reflorestamento Econômico Consorciado e Adensado) tem utilizado
 
 ---
 
----
-
 ## 📊 Resultados
 
 ### 🔹 Número médio de frutos por planta (NF)

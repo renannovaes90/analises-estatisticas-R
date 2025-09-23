@@ -1,0 +1,65 @@
+> ANOVA1 <- dic(K2O, NF)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ     QM     Fc      Pr>Fc
+Tratamento  4 278.743 69.686 55.823 7.8879e-09
+Residuo    15  18.725  1.248                  
+Total      19 297.468                         
+------------------------------------------------------------------------
+CV = 5.55 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.1623842 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.8549219 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+Teste de Tukey
+------------------------------------------------------------------------
+Grupos Tratamentos Medias
+a 	 80 	 25.65 
+ b 	 60 	 22.975 
+  c 	 40 	 19.175 
+  c 	 20 	 17.7 
+   d 	 0 	 15.2 
+------------------------------------------------------------------------
+> ANOVA2 <- dic(K2O, PF)
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ     QM     Fc      Pr>Fc
+Tratamento  4 316.99 79.248 85.412 3.9074e-10
+Residuo    15  13.92  0.928                  
+Total      19 330.91                         
+------------------------------------------------------------------------
+CV = 4.31 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.3166828 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.06921481 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+Teste de Tukey
+------------------------------------------------------------------------
+Grupos Tratamentos Medias
+a 	 60 	 27.925 
+ b 	 40 	 25.425 
+  c 	 20 	 21.525 
+  c 	 80 	 20.325 
+   d 	 0 	 16.525 
+------------------------------------------------------------------------
+> 

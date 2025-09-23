@@ -26,8 +26,8 @@ Teste de Tukey
 ------------------------------------------------------------------------
 Grupos Tratamentos Medias
 a 	 Solteiro 	 5.94 
- b 	 Caupi 	 4.06 
- b 	 CobM 	 3.6 
+ b 	 Caupi 	         4.06 
+ b 	 CobM 	         3.6 
  b 	 MilhoC 	 2.88 
 ------------------------------------------------------------------------
 > Anova2 <- dbc(Consorcio, bloco, MSN)
@@ -57,8 +57,8 @@ De acordo com o teste de oneillmathews a 5% de significancia, as variancias pode
 Teste de Tukey
 ------------------------------------------------------------------------
 Grupos Tratamentos Medias
-a 	 CobM 	 5.124 
-a 	 Caupi 	 4.688 
+a 	 CobM 	         5.124 
+a 	 Caupi 	         4.688 
  b 	 MilhoC 	 1.018 
  b 	 Solteiro 	 0.942 
 ------------------------------------------------------------------------
@@ -91,8 +91,8 @@ Teste de Tukey
 Grupos Tratamentos Medias
 a 	 Caupi 	 16.504 
  b 	 CobM 	 12.692 
-  c 	 MilhoC 	 7.75 
-  c 	 Solteiro 	 5.36 
+  c 	 MilhoC   7.75 
+  c 	 Solteiro 5.36 
 ------------------------------------------------------------------------
 > Anova4 <- dbc(Consorcio, bloco, Nod_F)
 ------------------------------------------------------------------------
@@ -122,9 +122,9 @@ Teste de Tukey
 ------------------------------------------------------------------------
 Grupos Tratamentos Medias
 a 	 MilhoC 	 84.86 
-ab 	 Caupi 	 72.76 
+ab 	 Caupi 	         72.76 
 ab 	 Solteiro 	 66.82 
- b 	 CobM 	 42.64 
+ b 	 CobM 	         42.64 
 ------------------------------------------------------------------------
 > Anova5 <- dbc(Consorcio, bloco, Prod)
 ------------------------------------------------------------------------
@@ -153,9 +153,9 @@ De acordo com o teste de oneillmathews a 5% de significancia, as variancias pode
 Teste de Tukey
 ------------------------------------------------------------------------
 Grupos Tratamentos Medias
-a 	 CobM 	 1592.24 
- b 	 Solteiro 	 1162.82 
- b 	 Caupi 	 1040.14 
-  c 	 MilhoC 	 676.16 
+a 	 CobM 	   1592.24 
+ b 	 Solteiro  1162.82 
+ b 	 Caupi 	   1040.14 
+  c 	 MilhoC     676.16 
 ------------------------------------------------------------------------
 > 

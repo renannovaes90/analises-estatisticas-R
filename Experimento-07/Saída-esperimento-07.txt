@@ -1,0 +1,253 @@
+#Seguem ANOVAS com testes de médias utilizando o método Scott-Knott uma vez que o número de parcelas (n) é maior que 50
+
+> ANOVA1 <- dic(Genotipos, Nfolhas, mcomp = "sk") #Análise de variância para número de folhas
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ     QM Fc      Pr>Fc
+Tratamento  6  50.143 8.3571  5 0.00030274
+Residuo    63 105.300 1.6714              
+Total      69 155.443                     
+------------------------------------------------------------------------
+CV = 13.57 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.05142082 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.2842395 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+Teste de Scott-Knott
+------------------------------------------------------------------------
+  Grupos Tratamentos Medias
+1      a     Pacovan   10.9
+2      a     PV42-53   10.5
+3      b Pacovan-Ken    9.6
+4      b      Japira    9.4
+5      b     PV79-34    9.3
+6      b   Garantida    8.5
+7      b    Preciosa    8.5
+------------------------------------------------------------------------
+> ANOVA2 <- dic(Genotipos, SigatAmar, mcomp = "sk") #Análise de variância para incidência de Sigatoka-Amarela
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ     QM     Fc      Pr>Fc
+Tratamento  6 39.286 6.5476 17.704 6.7608e-12
+Residuo    63 23.300 0.3698                  
+Total      69 62.586                         
+------------------------------------------------------------------------
+CV = 37.67 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  4.188375e-06 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0 
+ATENCAO: a 5% de significancia, as variancias nao podem ser consideradas homogeneas!
+------------------------------------------------------------------------
+
+Teste de Scott-Knott
+------------------------------------------------------------------------
+  Grupos Tratamentos Medias
+1      a     PV79-34    3.3
+2      b     Pacovan    2.0
+3      c   Garantida    1.4
+4      c      Japira    1.2
+5      c Pacovan-Ken    1.2
+6      c     PV42-53    1.2
+7      c    Preciosa    1.0
+------------------------------------------------------------------------
+> ANOVA3 <- dic(Genotipos, NPencas, mcomp = "sk") #Análise de variância para número de pencas
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ     QM     Fc     Pr>Fc
+Tratamento  6  58.771 9.7952 4.1416 0.0014383
+Residuo    63 149.000 2.3651                 
+Total      69 207.771                        
+------------------------------------------------------------------------
+CV = 17.2 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.3655609 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.5377244 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+Teste de Scott-Knott
+------------------------------------------------------------------------
+  Grupos Tratamentos Medias
+1      a     PV79-34   10.4
+2      a     Pacovan    9.6
+3      a      Japira    9.4
+4      a    Preciosa    9.1
+5      b   Garantida    8.4
+6      b Pacovan-Ken    8.3
+7      b     PV42-53    7.4
+------------------------------------------------------------------------
+> ANOVA4 <- dic(Genotipos, Nfrutos, mcomp = "sk") #Análise de variância para número de frutas
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL      SQ      QM     Fc      Pr>Fc
+Tratamento  6 11431.3 1905.22 23.681 1.9145e-14
+Residuo    63  5068.5   80.45                  
+Total      69 16499.8                          
+------------------------------------------------------------------------
+CV = 7.07 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.8644332 
+De acordo com o teste de Shapiro-Wilk a 5% de significancia, os residuos podem ser considerados normais.
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.5114845 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+Teste de Scott-Knott
+------------------------------------------------------------------------
+  Grupos Tratamentos Medias
+1      a     PV79-34  152.8
+2      b      Japira  131.1
+3      b   Garantida  129.3
+4      b    Preciosa  127.1
+5      b Pacovan-Ken  123.5
+6      c     Pacovan  113.2
+7      c     PV42-53  111.1
+------------------------------------------------------------------------
+> ANOVA5 <- dic(Genotipos, Pcachos,mcomp = "sk") #Análise de variância para peso de cachos
+------------------------------------------------------------------------
+Quadro da analise de variancia
+------------------------------------------------------------------------
+           GL     SQ     QM     Fc      Pr>Fc
+Tratamento  6 571.37 95.229 15.446 8.4637e-11
+Residuo    63 388.40  6.165                  
+Total      69 959.77                         
+------------------------------------------------------------------------
+CV = 9.95 %
+
+------------------------------------------------------------------------
+Teste de normalidade dos residuos ( Shapiro-Wilk ) 
+Valor-p:  0.02267555 
+ATENCAO: a 5% de significancia, os residuos nao podem ser considerados normais!
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Teste de homogeneidade de variancia 
+valor-p:  0.1842603 
+De acordo com o teste de bartlett a 5% de significancia, as variancias podem ser consideradas homogeneas.
+------------------------------------------------------------------------
+
+Teste de Scott-Knott
+------------------------------------------------------------------------
+  Grupos Tratamentos Medias
+1      a    Preciosa   29.0
+2      b     PV42-53   26.3
+3      b      Japira   26.2
+4      b     Pacovan   25.1
+5      b     PV79-34   25.0
+6      b Pacovan-Ken   24.1
+7      c   Garantida   18.9
+------------------------------------------------------------------------
+> 
+
+#Segue teste para normalidade de resíduos quando número de parcelas (n) > 50
+
+> lillie.test(residuals(modelo_Nfolhas)) 
+
+	Lilliefors (Kolmogorov-Smirnov) normality test
+
+data:  residuals(modelo_Nfolhas)
+D = 0.12695, p-value = 0.006994
+
+> lillie.test(residuals(modelo_SigatAmar))
+
+	Lilliefors (Kolmogorov-Smirnov) normality test
+
+data:  residuals(modelo_SigatAmar)
+D = 0.27143, p-value = 4.907e-14
+
+> lillie.test(residuals(modelo_NPencas))
+
+	Lilliefors (Kolmogorov-Smirnov) normality test
+
+data:  residuals(modelo_NPencas)
+D = 0.095168, p-value = 0.1205
+
+> lillie.test(residuals(modelo_Nfrutos))
+
+	Lilliefors (Kolmogorov-Smirnov) normality test
+
+data:  residuals(modelo_Nfrutos)
+D = 0.071882, p-value = 0.4954
+
+> lillie.test(residuals(modelo_Pcachos))
+
+	Lilliefors (Kolmogorov-Smirnov) normality test
+
+data:  residuals(modelo_Pcachos)
+D = 0.073759, p-value = 0.4533
+
+# Teste de homogeneidade de variâncias (Bartlett)
+
+> bartlett.test(Nfolhas ~ Genotipos, data = dados7)     # modelo1
+
+	Bartlett test of homogeneity of variances
+
+data:  Nfolhas by Genotipos
+Bartlett's K-squared = 7.4141, df = 6, p-value = 0.2842
+
+> bartlett.test(SigatAmar ~ Genotipos, data = dados7)   # modelo2
+
+	Bartlett test of homogeneity of variances
+
+data:  SigatAmar by Genotipos
+Bartlett's K-squared = Inf, df = 6, p-value < 2.2e-16
+
+> bartlett.test(NPencas ~ Genotipos, data = dados7)     # modelo3
+
+	Bartlett test of homogeneity of variances
+
+data:  NPencas by Genotipos
+Bartlett's K-squared = 5.0476, df = 6, p-value = 0.5377
+
+> bartlett.test(Nfrutos ~ Genotipos, data = dados7)     # modelo4
+
+	Bartlett test of homogeneity of variances
+
+data:  Nfrutos by Genotipos
+Bartlett's K-squared = 5.2555, df = 6, p-value = 0.5115
+
+> bartlett.test(Pcachos ~ Genotipos, data = dados7)     # modelo5
+
+	Bartlett test of homogeneity of variances
+
+data:  Pcachos by Genotipos
+Bartlett's K-squared = 8.8149, df = 6, p-value = 0.1843
+
+##A normalidade de resíduos para Nfolhas não foi atendida (P<5%)
+##As pressuposições, normalidade de resíduos e homogeneidade não foram atendidas para SigatAmar. Bartlett e Lilliefors P<5%
+##Faz-se necessário a transformação dos dados com box-cox.
+
+##Resultado das transformações seguem em **README-Experimento-07**
